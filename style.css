@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://img.ixbt.site/live/images/original/00/06/21/2023/02/13/3f63b4b2fc.jpg');
+    background-color: #f2f2f2;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+}
+.logo {
+  width: 100px;
+}
+button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #002244;
+}
+.loginForm, .roleForm{
+  display: none; 
+}
+.mainTitle {
+  font-size: 48px;
+  color: #003366;
+}
+/* Стили для модального окна */
+#loginModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+.loginForm, .roleForm {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+input {
+  border: 2px solid #003366;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: block;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
